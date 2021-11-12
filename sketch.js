@@ -19,6 +19,9 @@ function setup(){
 
 
 function draw(){
+  background(180)
+  textSize(40);
+  text("Hello", 200,200)
   if(playerCount === 4){
     game.update(1);
   }
