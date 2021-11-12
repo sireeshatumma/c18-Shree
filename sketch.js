@@ -10,7 +10,7 @@ var form, player, game;
 
 
 function setup(){
-  canvas = createCanvas(400,400);
+  canvas = createCanvas(windowWidth,windowHeight);
   database = firebase.database();
   game = new Game();
   game.getState();
